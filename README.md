@@ -1,4 +1,4 @@
-# Password
+# Password [![hex.pm](https://img.shields.io/hexpm/v/password.svg?style=flat-square)](https://hex.pm/packages/password) [![hexdocs.pm](https://img.shields.io/badge/docs-latest-green.svg?style=flat-square)](https://hexdocs.pm/password)
 
 Flexible password policies for Elixir.
 
@@ -61,11 +61,13 @@ in or extend to create your own. At moment, the current modules are included:
 - [Password.Policy.SpecialCharacters](https://hexdocs.pm/password/Password.Policy.SpecialCharacters.html) - verified input includes 1 (or more) special characters
 - [Password.Policy.CommonPasswords](https://hexdocs.pm/password/Password.Policy.CommonPasswords.html) - verifies input is not one of the most common used passwords
 
-Check documentation on [hexdocs](https://hexdocs.pm/password/api-reference.html)
+Check documentation on [hexdocs](https://hexdocs.pm/password/api-reference.html).
 
 To create your own password policies, simply create a module that implements the `Password.Policy` behaviour and provide the `validate/2` function. See source of included modules as an example.
 
 ## About
+
+<img src="https://blog.heresy.io/content/images/2017/12/logo-white.png" alt="Heresy logo" width=300>
 
 This project is sponsored by [Heresy](http://heresy.io). We're always looking for great engineers to join our team, so if you love Elixir, open source and enjoy some challenge, drop us a line and say hello!
 

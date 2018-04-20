@@ -1,6 +1,6 @@
 # Password
 
-Elixir utility library with flexible password policies.
+Flexible password policies for Elixir.
 
 ## Installation
 

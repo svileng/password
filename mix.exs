@@ -9,7 +9,7 @@ defmodule Password.MixProject do
       version: @version,
       elixir: "~> 1.3",
       name: "Password",
-      description: "Flexible password policies for stronger passwords.",
+      description: "Flexible password policies.",
       package: [
         maintainers: ["Svilen Gospodinov <svilen@heresy.io>"],
         licenses: ["MIT"],

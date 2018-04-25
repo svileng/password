@@ -7,4 +7,8 @@ defmodule CommonPasswordsTest do
     assert {:error, _} = CommonPasswords.validate("qwerty123456", [])
     assert :ok == CommonPasswords.validate("very unusual password", [])
   end
+
+  test "searches char lists if not in most common passwords" do
+    assert {:error, _} = CommonPasswords.validate("password10", [])
+  end
 end

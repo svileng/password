@@ -54,8 +54,8 @@ defmodule Password.Policy.CommonPasswords do
       |> Stream.filter(&(String.length(&1) == input_length))
       |> Enum.find(&(&1 == input))
       |> case do
-        true -> {:error, __MODULE__}
         nil -> :ok
+        _password -> {:error, __MODULE__}
       end
     end
   end

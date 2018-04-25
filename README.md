@@ -58,7 +58,8 @@ see below.
 Password's Policy modules are essentially middleware that you can plug
 in or extend to create your own. At moment, the current modules are included:
 
-- [Password.Policy.SpecialCharacters](https://hexdocs.pm/password/Password.Policy.SpecialCharacters.html) - verified input includes 1 (or more) special characters
+- [Password.Policy.Length](https://hexdocs.pm/password/Password.Policy.Length.html) - verifies input is of minimum length
+- [Password.Policy.SpecialCharacters](https://hexdocs.pm/password/Password.Policy.SpecialCharacters.html) - verifies input includes 1 (or more) special characters
 - [Password.Policy.CommonPasswords](https://hexdocs.pm/password/Password.Policy.CommonPasswords.html) - verifies input is not one of the most common used passwords
 
 Check documentation on [hexdocs](https://hexdocs.pm/password/api-reference.html).

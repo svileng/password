@@ -60,7 +60,7 @@ in or extend to create your own. At moment, the current modules are included:
 
 - [Password.Policy.Length](https://hexdocs.pm/password/Password.Policy.Length.html) - verifies input is of minimum length
 - [Password.Policy.SpecialCharacters](https://hexdocs.pm/password/Password.Policy.SpecialCharacters.html) - verifies input includes 1 (or more) special characters
-- [Password.Policy.CommonPasswords](https://hexdocs.pm/password/Password.Policy.CommonPasswords.html) - verifies input is not one of the most common used passwords
+- [Password.Policy.CommonPasswords](https://hexdocs.pm/password/Password.Policy.CommonPasswords.html) - verifies input is not one of the most common used passwords (data set includes ~400K passwords, credits to Mark Burnett / xato.net)
 
 Check documentation on [hexdocs](https://hexdocs.pm/password/api-reference.html).
 

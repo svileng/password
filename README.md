@@ -2,6 +2,8 @@
 
 Flexible password policies for Elixir.
 
+Comes with a built-in data set with the most widely used passwords (**~400K** records) from Mark Burnett / xato.net.
+
 ## Installation
 
 Add to your `mix.exs`:

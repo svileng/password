@@ -77,4 +77,4 @@ This project is sponsored by [Heresy](http://heresy.io). We're always looking fo
 ## License
 
 * Password: See LICENSE file.
-* "Heresy" name and logo: Copyright © 2018 Heresy Software Ltd
+* "Heresy" name and logo: Copyright © 2019 Heresy Software Ltd
